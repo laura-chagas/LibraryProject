@@ -33,7 +33,7 @@ public class MenuView {
                     code = scanner.nextInt();
                     bookModel.setCode(code);
 
-                    scanner.nextLine(); // Consumir a nova linha pendente
+                    scanner.nextLine();
 
                     System.out.println("Digite o nome do livro:");
                     nameBook = scanner.nextLine();
